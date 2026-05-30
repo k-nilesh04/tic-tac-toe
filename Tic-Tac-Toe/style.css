@@ -1,0 +1,112 @@
+* {
+    margin:0%;
+    padding: 0%;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    background-color: #241023;
+}
+
+#outerbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+main {
+    height: 75vmin;
+    width: 60vmin;
+    margin: 5vmin;
+    background-color: #6B0504;
+    /* background: linear-gradient(0deg,#5A0002, #1c022e, #020635); */
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px #000000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    height:10vmin;
+    width: 100vmin;
+    padding: 1px;
+    box-shadow : 2px 2px 10px #580022;
+    font-size: 4.5vmin;
+    color: rgb(8, 3, 71);
+    background: linear-gradient(to bottom right, #ffecd2, #fce69f);    
+    border-radius: 15px;
+    margin-inline: 5%;
+}
+
+header:hover {
+    color: #100431;
+    transform: translateY(-1px); 
+    box-shadow: 2px 2px 10px #46001b; 
+}  
+
+#game {
+    height: 47vmin;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1.5vmin; 
+    transform: translateY(-12px);
+
+}
+
+.box {
+    border-radius: 2vmin;
+    height: 15vmin;
+    width: 15vmin;
+    color: rgb(43, 10, 75);
+    border: none;
+    cursor: pointer;
+    font-size: 10vmin;
+    transition: all 0.3s ease; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.box:hover {
+    transform: translateY(-3px); 
+    box-shadow: -2px 5px 15px rgb(0, 0, 0); 
+}  
+
+#myBox:disabled {
+  background-color: rgb(255, 255, 255); /* default disabled color */
+}
+
+#reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vmin;
+}
+
+
+.reset {
+    height: 8vmin;
+    width: 25vmin;
+    font-size: 6vmin;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 2vmin;
+    border: none;
+}
+
+.reset:hover {
+    height: 8vmin;
+    width: 26vmin;
+    font-size: 6vmin;
+    transition: all 0.3s ease;
+    transform: translateY(-2px); 
+    box-shadow: -2px 5px 15px rgb(0, 0, 0); 
+    cursor: pointer;
+}
