@@ -42,14 +42,11 @@ git clone https://github.com/yourusername/tic-tac-toe-web-game.git
 
 <img width="590" height="626" alt="Screenshot 2026-05-30 163532" src="https://github.com/user-attachments/assets/7b381448-7944-411e-b6b5-d8af96fe84ef" />
 
-Add screenshots or GIFs here.
-
 ## 🌱 Future Improvements
 
 - Single-player mode with AI
 - Scoreboard system
 - Dark mode
-- Mobile optimization
 
 ## 👨‍💻 Author
 
