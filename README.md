@@ -46,7 +46,7 @@ git clone https://github.com/yourusername/tic-tac-toe-web-game.git
 
 - Single-player mode with AI
 - Scoreboard system
-- Dark mode
+- Mode addition
 
 ## 👨‍💻 Author
 
