@@ -43,9 +43,10 @@ git clone https://github.com/k-nilesh04/tic-tac-toe.git
 <img width="590" height="626" alt="Screenshot 2026-05-30 163532" src="https://github.com/user-attachments/assets/7b381448-7944-411e-b6b5-d8af96fe84ef" />
 
 
-## Demo Link
+## ▶️ How to Play/Demo Link
 
-- [Instagram](https://www.instagram.com/reel/DY_x9wQN95g/)
+- [Play](https://k-nilesh04.github.io/tic-tac-toe/)
+- [Video](https://www.instagram.com/reel/DY_x9wQN95g/)
   
 ## 🌱 Future Improvements
 
